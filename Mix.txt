@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a=10,b=20,c=30,d=40,e=50;
+float f=11.11,g=22.22,h=33.33,i=44.44,j=55.55;
+char k='!',l='@',m='#',n='%',o='$';
+printf(" integer data type:\n\n ");
+printf(" a=%i\nb=%i\nc=%i\nd=%i\ne=%i\n", a,b,c,d,e);
+printf("\n\n float data type:\n\n");
+printf( " f=%f\ng=%f\nh=%f\ni=%f\nj=%f\n", f,g,h,i,j);
+printf("\n\n character data type:\n\n");
+printf( " k=%c\nl=%c\nm=%c\nn=%c\no=%c\n\n", k,l,m,n,o);
+getch();
+
+
+}

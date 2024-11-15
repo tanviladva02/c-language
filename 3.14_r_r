@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#define A=3.14
+void main()
+{
+clrscr();
+ int r,ans;
+ printf("add r value");
+ scanf("%i",&r);
+ ans=3.14*r*r;
+ printf("ans=%i",ans);
+
+getch();
+}

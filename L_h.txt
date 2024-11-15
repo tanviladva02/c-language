@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+//area=(l*h)
+void main ()
+{
+clrscr();
+int area,l,h;
+l=10,h=20;
+area=(l*h);
+printf (" l=%i\nh=%i\n" ,l,h) ;
+printf("area=%i",area);
+getch();
+}
